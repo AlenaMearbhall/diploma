@@ -177,6 +177,9 @@ h6 {
 
 .page__main-block {}
 
+.page__description {
+}
+
     /* Main main-block */
 
 .main-block {}
@@ -292,3 +295,39 @@ h6 {
 }
 
 .main-block__image {}
+
+    /* Main description */
+
+.description {}
+
+.description__container {
+    width: 900px;
+}
+
+.description__body {
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--headersFontColor);
+}
+
+.description__logo {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--headersFontColor);
+
+}
+
+.description__deatails {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--mainColor);
+
+}
