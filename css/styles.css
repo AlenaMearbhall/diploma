@@ -140,7 +140,7 @@ h6 {
 }
 
 .header__logo-body {
- }
+}
 
 .header__logo-icon img {
 }
@@ -182,6 +182,8 @@ h6 {
 .page__features {}
 
 .page__plan {}
+
+.page__award {}
 
     /* Main main-block */
 
@@ -428,4 +430,63 @@ h6 {
     color: var(--mainColor)
 }
 
+    /* Main award */
+
+.award {}
+
+.award__container {
+    display: flex;
+}
+
+.award__description {}
+
+.award__header {}
+
+.award__description-description {
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: var(--commonFontColor);
+}
+
+.award__diploma {
+    width: 595px;
+    height: 842px;
+    background: linear-gradient(90deg, #6693B4 0%, #8FEFEA 100%);
+}
+
+.award__diploma-block {}
+
+.award__diploma-block img {
+    position: absolute;
+    width: 634.77px;
+    height: 1013px;
+    left: 868px;
+    top: 22px;
+
+    transform: rotate(90deg);
+}
+
+.award__diploma-desc {}
+
+.diploma__title {}
+
+.diploma__subtitle {}
+
+.diploma__respondent {}
+
+.diploma__description {}
+
+.diploma__text {}
+
+.award__diploma-details {}
+
+.award__logo {}
+
+.award__logo-text {}
+
+.award__logo-detail {}
+
+.award__diploma-date {}
+
+.award__diploma-print {}
 
