@@ -180,6 +180,8 @@ h6 {
 .page__description {
 }
 
+.page__features {}
+
     /* Main main-block */
 
 .main-block {}
@@ -329,5 +331,57 @@ h6 {
     text-align: center;
     letter-spacing: 0.05em;
     color: var(--mainColor);
+}
 
+    /* Main header__box */
+
+.header-block {}
+
+.header-block__title {
+    font-family: var(--headersFont);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: calc(44 / 32 * 100%);
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--headersFontColor);
+}
+
+    /* Main features */
+
+.features {}
+
+.features__container {}
+
+.features__header {}
+
+.features__body {
+    display: flex;
+}
+
+.features__column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 35px 0px;
+    gap: 8px;
+
+    width: 445px;
+    height: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(215, 211, 225, 0.5);
+    border-radius: 16px;
+}
+
+.features__text {
+    line-height: calc(24 / 20 * 100%);
+    letter-spacing: 0.04em;
+    color: var(--commonFontColor);
+}
+
+.features__link {
+    line-height: calc(24 / 20 * 100%);
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: var(--mainAccentColor);
 }
