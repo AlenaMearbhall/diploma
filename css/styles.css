@@ -177,10 +177,11 @@ h6 {
 
 .page__main-block {}
 
-.page__description {
-}
+.page__description {}
 
 .page__features {}
+
+.page__plan {}
 
     /* Main main-block */
 
@@ -385,3 +386,46 @@ h6 {
     text-decoration-line: underline;
     color: var(--mainAccentColor);
 }
+
+    /* Main plan */
+
+.plan {}
+
+.plan__container {}
+
+.features__header {}
+
+.header-block {}
+
+.header-block__title {}
+
+.plan__body {}
+
+.plan__column {}
+
+.plan__column-count {
+    position: absolute;
+    height: 80.03px;
+    background: var(--mainAccentColor);
+    border-radius: 90px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.plan__column-text {
+    line-height: calc(24 / 20 * 100%);
+    letter-spacing: 0.04em;
+    color: var(--commonFontColor);
+}
+
+.plan__column-link {
+    line-height: calc(24 / 20 * 100%);
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: var(--mainColor)
+}
+
+
