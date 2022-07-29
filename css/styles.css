@@ -560,49 +560,127 @@ h6 {
 
     /* Main registration */
 
-
 .registration__container {
+    display: flex;
 }
-._container {
-}
+
 .registration__discount {
+    box-sizing: border-box;
+    position: absolute;
+    /* left: 13.75%;
+    right: 60.73%;
+    top: 61.82%;
+    bottom: 30.11%; */
+
+    background: #FFFFFF;
+    border: 3px solid var(--mainColor);
+
+    box-shadow: 0px 5px 15px rgba(20, 167, 114, 0.2);
+    border-radius: 40px;
 }
+
 .registration__discount-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .registration__discount-box-top {
 }
-.registration__discount-box-top__text {
+
+.registration__discount__text {
+    font-family: var(--headersFont);
+    font-weight: 700;
+    line-height: 140%;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
 }
+
+.registration__discount-box-medium {
+
+}
+
+.box-medium__title {
+    line-height: 24px;
+    line-height: calc(24 / 20 * 100%);
+    letter-spacing: 0.05em;
+    color: var(--commonFontColor);
+}
+
+.box-medium__price {
+    display: flex;
+    color: #000000;
+}
+
+.box-medium__price-current {
+    font-size: 96px;
+    line-height: calc(114 / 96 * 100%);
+    text-align: right;
+}
+
+.box-medium__price-old {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: calc(36 / 30 * 100%);
+    letter-spacing: 0.05em;
+    text-decoration: line-through;
+}
+
+.box-medium__text {
+    line-height: 24px;
+    line-height: calc(24 / 20 * 100%);
+    letter-spacing: 0.05em;
+    color: var(--commonFontColor);
+}
+
 .registration__discount-box-bottom {
+    display: flex;
 }
+
 .registration__discount-box-bottom__text {
 }
+
 .registration__discount-link {
 }
 .registration__block {
 }
+
 .registration__header {
 }
+
 .header-block {
 }
+
 .header-block__title {
 }
+
 .block-form {
 }
+
 .block-form__input {
 }
+
 .checkbox {
 }
+
 .block-form__checkbox {
 }
+
 .block-form__text {
 }
+
 .block-form__link {
 }
+
 .block-form__submit {
 }
+
 .block-form__button {
 }
+
 .block-form__planes-anim {
 }
 
