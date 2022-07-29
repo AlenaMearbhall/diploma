@@ -46,7 +46,9 @@ body {
     font-size: 100%;
     line-height: 1;
     font-size: 20px;
+    line-height: 24px;
     font-weight: 400;
+    letter-spacing: 0.04em;
     font-family: var(--commonFont);
     color: var(--commonFontColor);
     background-color: #F5F5F5;
@@ -186,6 +188,10 @@ h6 {
 .page__award {}
 
 .page__registration {}
+
+.page__interview {
+    margin: 200px 0px 0px 0px;
+}
 
     /* Main main-block */
 
@@ -725,7 +731,6 @@ h6 {
     font-family: var(--commonFont);
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
     line-height: calc(24 / 20 * 100%);
 
     text-align: center;
@@ -738,5 +743,39 @@ h6 {
 }
 
 .block-form__planes-anim {
+}
+
+    /* Main interview */
+
+.interview__container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.interview__list {
+    margin: 50px 0px 0px 0px;
+}
+
+.interview__item {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--headersFontColor);
+}
+
+.interview__item:last-child {
+    border-bottom: 1px solid var(--headersFontColor);
+}
+
+.interview__item-text {
+    line-height: 50px;
+    padding: 7px 0px;
+}
+
+.interview__item-button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--mainAccentColor);
 }
 
