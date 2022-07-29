@@ -185,6 +185,8 @@ h6 {
 
 .page__award {}
 
+.page__registration {}
+
     /* Main main-block */
 
 .main-block {}
@@ -554,5 +556,53 @@ h6 {
 }
 
 .award__diploma-print {
+}
+
+    /* Main registration */
+
+
+.registration__container {
+}
+._container {
+}
+.registration__discount {
+}
+.registration__discount-box {
+}
+.registration__discount-box-top {
+}
+.registration__discount-box-top__text {
+}
+.registration__discount-box-bottom {
+}
+.registration__discount-box-bottom__text {
+}
+.registration__discount-link {
+}
+.registration__block {
+}
+.registration__header {
+}
+.header-block {
+}
+.header-block__title {
+}
+.block-form {
+}
+.block-form__input {
+}
+.checkbox {
+}
+.block-form__checkbox {
+}
+.block-form__text {
+}
+.block-form__link {
+}
+.block-form__submit {
+}
+.block-form__button {
+}
+.block-form__planes-anim {
 }
 
