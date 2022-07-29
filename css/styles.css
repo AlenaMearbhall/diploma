@@ -566,7 +566,7 @@ h6 {
 
 .registration__discount {
     box-sizing: border-box;
-    position: absolute;
+    /* position: absolute; */
     /* left: 13.75%;
     right: 60.73%;
     top: 61.82%;
@@ -640,12 +640,11 @@ h6 {
     display: flex;
 }
 
-.registration__discount-box-bottom__text {
-}
-
-.registration__discount-link {
-}
 .registration__block {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 220px;
+
 }
 
 .registration__header {
@@ -658,27 +657,84 @@ h6 {
 }
 
 .block-form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 0px;
 }
 
 .block-form__input {
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+
+    /* position: absolute;
+    left: 975px;
+    top: 3614px; */
+    width: 540px;
+    height: 60px;
+
+    background: #FFFFFF;
+    border: 1px solid #9FA0A7;
+    border-radius: 15px;
+
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: calc(24 / 20 * 100%);
+    letter-spacing: 0.04em;
+    color: var(--commonFontColor);
 }
 
-.checkbox {
+.block-form__input:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+
+.checkbox-box {
+    display: flex;
 }
 
 .block-form__checkbox {
 }
 
 .block-form__text {
+    font-size: 15px;
+    line-height: calc(18 / 15 * 100%);
+    letter-spacing: 0.04em;
+    color: #9FA0A7;
 }
 
 .block-form__link {
+    font-weight: 700;
+    text-decoration-line: underline;
+    color: var(--mainColor);
 }
 
 .block-form__submit {
+    display: flex;
+    margin: 50px 0px 0px 0px;
 }
 
 .block-form__button {
+    flex: 1 1 auto;
+    background: var(--additionalAccentColor);
+    box-shadow: 0px 15px 30px rgba(218, 71, 25, 0.25);
+    border-radius: 15px;
+
+    font-family: var(--commonFont);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: calc(24 / 20 * 100%);
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+    padding: 18px 46px;
+
+    
 }
 
 .block-form__planes-anim {
