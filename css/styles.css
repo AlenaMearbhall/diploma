@@ -435,7 +435,6 @@ h6 {
 .award {}
 
 .award__container {
-    display: flex;
 }
 
 .award__description {}
@@ -449,44 +448,111 @@ h6 {
 }
 
 .award__diploma {
-    width: 595px;
-    height: 842px;
+    max-width: 842px;
+    height: 595px;
     background: linear-gradient(90deg, #6693B4 0%, #8FEFEA 100%);
 }
 
 .award__diploma-block {}
 
-.award__diploma-block img {
+.award__diploma-bg {
+    max-width: 100%;
+    object-fit: cover;
     position: absolute;
-    width: 634.77px;
-    height: 1013px;
-    left: 868px;
-    top: 22px;
-
-    transform: rotate(90deg);
+    z-index: 3;
 }
 
-.award__diploma-desc {}
+.award__diploma-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.diploma__title {}
+.award__diploma-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 20;
+}
 
-.diploma__subtitle {}
+.diploma__title {
+    font-family: var(--accentFont);
+    font-size: 60px;
+    line-height: 122%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--mainColor);
+}
 
-.diploma__respondent {}
+.diploma__subtitle {
+    font-family: var(--accentFont);
+    font-weight: 500;
+    line-height: calc(28 / 20 * 100%);
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000000;
+}
 
-.diploma__description {}
+.diploma__respondent {
+    font-family: var(--accentFont);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 112.8%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
 
-.diploma__text {}
+.diploma__seporater {
+    width: 500px;
+    height: 0px;
+    border: 2px solid var(--mainColor);
+    border-radius: 1px;
 
-.award__diploma-details {}
+}
+
+.diploma__description {
+    font-family: var(--accentFont);
+    font-size: 30px;
+    line-height: calc(42 / 30 * 100%);
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: var(--mainColor);
+}
+
+.diploma__text {
+    width: 353px;
+    height: 72px;
+    font-family: var(--accentFont);
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.award__diploma-details {
+    display: flex;
+    z-index: 10;
+}
 
 .award__logo {}
 
-.award__logo-text {}
+.award__diploma-date {
+    font-family: var(--accentFont);
+    font-size: 16px;
+    line-height: calc(22 / 16 * 100%);
+    letter-spacing: 0.02em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: rgba(0, 0, 0, 0.6);
+}
 
-.award__logo-detail {}
-
-.award__diploma-date {}
-
-.award__diploma-print {}
+.award__diploma-print {
+}
 
