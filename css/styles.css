@@ -178,6 +178,10 @@ h6 {
 
     /* Main page */
 
+.page {
+    flex: 1 1 auto;
+}
+
 .page__main-block {}
 
 .page__description {}
@@ -196,6 +200,7 @@ h6 {
 
 .page__subscribe {
     margin: 200px 0px 0px 0px;
+    height: 373px;
 }
 
     /* Main main-block */
@@ -792,11 +797,13 @@ h6 {
     /* Main subscribe */
 
 .subscribe {
-    background: url(../img/subscribe/графика.png) center no-repeat;
-    width: 100%;
 }
 
-.subscribe__container {}
+.subscribe__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .subscribe__title {
     font-family: var(--headersFont);
@@ -816,15 +823,53 @@ h6 {
     color: #FFFFFF;
 }
 
-.subscribe__form {}
+.subscribe__form {
+    display: flex;
+    height: 60px;
+    width: 930px;
+    justify-content: space-between;
+}
 
-.subscribe__form-input {}
+.subscribe__form-input {
+    box-sizing: border-box;
+    padding: 0px 20px;
+    width: 540px;
 
-.form-input {}
+    background: #FFFFFF;
+    border: 1px solid #9FA0A7;
+    border-radius: 15px;
 
-.subscribe__form-btn {}
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--commonFontColor);
+}
 
-.subscribe__checkbox {}
+.subscribe__form-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 360px;
+    background: var(--mainColor);
+    border-radius: 15px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.subscribe__checkbox .block-form__link {
+    color: #FFFFFF;
+}
 
 .checkbox-box {}
 
