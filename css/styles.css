@@ -216,11 +216,11 @@ h6 {
 }
 
 .page__features {
-    margin-top: 200px;
+    margin-top: 164px;
 }
 
 .page__plan {
-    margin-top: 160px;
+    margin-top: 66px;
 }
 
 .page__award {}
@@ -411,7 +411,11 @@ h6 {
 
     /* Main features */
 
-.features {}
+.features {
+    height: 602px;
+    background-image: url(../img/features/волны.svg);
+    padding-bottom: 36px;
+}
 
 .features__container {}
 
@@ -457,7 +461,12 @@ h6 {
 
     /* Main plan */
 
-.plan {}
+.plan {
+    height: 907px;
+    align-items: center;
+    background-image: url(../img/plan/Небо.png);
+    padding-bottom: 40px;
+}
 
 .plan__container {}
 
