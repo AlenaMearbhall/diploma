@@ -119,16 +119,38 @@ h6 {
 }
 
 ._ibg {
-    position: relative;
+    /* position: relative; */
+    /* position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%; */
 }
 
 ._ibg img {
-    position: absolute;
+    /* position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    object-fit: cover;
+    object-fit: cover; */
+
+    /* min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0; */
+
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%; */
 }
 
 /* Header */
@@ -397,20 +419,27 @@ h6 {
 
 .features__body {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .features__column {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px 35px 0px;
+    padding: 20px 30px 0px;
     gap: 8px;
 
-    width: 445px;
+
+    width: 425px;
     height: 170px;
     background: #FFFFFF;
     box-shadow: 0px 5px 30px rgba(215, 211, 225, 0.5);
     border-radius: 16px;
+    margin-top: 30px;
+}
+
+.features__column:not(:last-child) {
+    margin-right: 30px;
 }
 
 .features__text {
@@ -440,21 +469,24 @@ h6 {
 
 .plan__body {}
 
-.plan__column {}
+.plan__column {
+    display: flex;
+}
 
 .plan__column-count {
-    position: absolute;
-    height: 80.03px;
+    /* position: absolute; */
+    height: 80px;
+    width: 80px;
     background: var(--mainAccentColor);
-    border-radius: 90px;
+    border-radius: 50%;
     font-weight: 700;
     font-size: 40px;
-    line-height: 150%;
     text-align: center;
     color: #FFFFFF;
 }
 
 .plan__column-text {
+    width: 268px;
     line-height: calc(24 / 20 * 100%);
     letter-spacing: 0.04em;
     color: var(--commonFontColor);
