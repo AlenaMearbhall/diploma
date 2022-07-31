@@ -51,7 +51,7 @@ body {
     letter-spacing: 0.04em;
     font-family: var(--commonFont);
     color: var(--commonFontColor);
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -134,15 +134,20 @@ h6 {
 /* Header */
 
 .header {
+    margin: 30px 0px 0px 0px;
 }
 
 .header__container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__logo {
 }
 
 .header__logo-body {
+    display: flex;
+    align-items: flex-end;
 }
 
 .header__logo-icon img {
@@ -184,22 +189,30 @@ h6 {
 
 .page__main-block {}
 
-.page__description {}
+.page__description {
+    margin-top: 200px;
+}
 
-.page__features {}
+.page__features {
+    margin-top: 200px;
+}
 
-.page__plan {}
+.page__plan {
+    margin-top: 160px;
+}
 
 .page__award {}
 
-.page__registration {}
+.page__registration {
+    margin-top: 200px;
+}
 
 .page__interview {
-    margin: 200px 0px 0px 0px;
+    margin-top: 200px;
 }
 
 .page__subscribe {
-    margin: 200px 0px 0px 0px;
+    margin-top: 200px;
     height: 373px;
 }
 
@@ -209,7 +222,9 @@ h6 {
 
 .main-block__container {}
 
-.main-block__body {}
+.main-block__body {
+    margin: 328px 0px 0px 0px;
+}
 
 .main-block__prev {
     font-size: 15px;
@@ -225,6 +240,7 @@ h6 {
     font-size: 55px;
     line-height: 122%;
     color: var(--headersFontColor);
+    margin: 0px 0px 40px 0px;
 }
 
 .main-block__text {
@@ -232,6 +248,7 @@ h6 {
     line-height: 150%;
     letter-spacing: 0.05em;
     color: var(--commonFontColor);
+    margin: 0px 0px 60px 0px;
 }
 
 .main-block__row {
@@ -258,6 +275,8 @@ h6 {
     letter-spacing: 0.04em;
 
     color: #FFFFFF;
+
+    margin: 0px 60px 0px 0px;
 }
 
 .main-block__counter {
